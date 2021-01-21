@@ -1,3 +1,12 @@
+```
+/**
+* Author: Ozuru Icheka
+* GitHub: https://github.com/icheka
+* Email: rhemafortune@gmail.com
+*/
+```
+
+
 class Sort:
     def _swap(self, arr, idx1, idx2):
         if (arr[idx1] > arr[idx2]):

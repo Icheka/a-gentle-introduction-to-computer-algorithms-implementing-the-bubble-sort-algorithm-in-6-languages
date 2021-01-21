@@ -1,3 +1,9 @@
+/**
+* Author: Ozuru Icheka
+* GitHub: https://github.com/icheka
+* Email: rhemafortune@gmail.com
+*/
+
 class Sort {
 	protected sort(array $arr, int $idx1, int $idx2) {
 		if ($arr[idx1] > $arr[idx2]) {
@@ -10,9 +16,9 @@ class Sort {
 	}
 	
 	public function bubbleSort(array $arr) {
-		for ($i = 0; $i < count(arr) - 1; $i++) {
-			for ($j = 0; $j < count(arr) - 1; $j++) {
-				$arr = $this->bubbleSort($arr, $j, $j + 1);
+		for ($i = 0; $i < count(arr) - 1; $i++) { //perform the swap operation on each item in the array
+			for ($j = 0; $j < count(arr) - 1; $j++) { //get each item and its near-right neighbor
+				$arr = $this->swap($arr, $j, $j + 1); //perform the swap 
 			}
 		}
 

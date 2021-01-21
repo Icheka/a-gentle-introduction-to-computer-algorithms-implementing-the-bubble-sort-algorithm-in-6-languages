@@ -1,4 +1,8 @@
-// C
+/**
+* Author: Ozuru Icheka
+* GitHub: https://github.com/icheka
+* Email: rhemafortune@gmail.com
+*/
 
 #include <stdio.h>
 

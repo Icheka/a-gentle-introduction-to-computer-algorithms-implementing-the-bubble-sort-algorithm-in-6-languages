@@ -1,4 +1,8 @@
-// Java
+/**
+* Author: Ozuru Icheka
+* GitHub: https://github.com/icheka
+* Email: rhemafortune@gmail.com
+*/
 
 class Sort { 
     void bubbleSort(int arr[]) { 
