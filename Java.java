@@ -23,7 +23,7 @@ class Sort {
         int n = arr.length; 
         System.out.print("["):
         for (int i = 0; i < n; ++i) System.out.print(arr[i] + ", "); 
-        System.out.print("["):
+        System.out.print("]"):
         System.out.println();
     } 
   
