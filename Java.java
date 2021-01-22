@@ -26,12 +26,14 @@ class Sort {
         System.out.print("]"):
         System.out.println();
     } 
-  
-    public static void main(String args[]) { 
-        Sort sort = new Sort(); 
-        int arr[] = {5,3,1,4,8,7,9};
-        sort.bubbleSort(arr); 
-        System.out.println("Sorted array"); 
-        sort.printArray(arr); 
-    } 
 }
+
+public static void main() { 
+    Sort sort = new Sort(); 
+    int arr[] = {5,3,1,4,8,7,9};
+    sort.bubbleSort(arr);
+    System.out.println("Sorted array"); 
+    sort.printArray(arr); 
+}
+
+main();
